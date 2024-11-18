@@ -17,5 +17,5 @@ npm install
 
 Далее запустите свой проект:
 ```console
-npm run serve
+npm run server
 ```
