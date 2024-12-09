@@ -47,6 +47,10 @@ module.exports = {
       template: path.join(__dirname, "src", "index.pug"),
       filename: "index.html",
     }),
+    new HtmlWebpackPlugin({
+      template: path.join(__dirname, "src", "building.pug"),
+      filename: "building.html"
+    }),
     new FileManagerPlugin({
       events: {
         onStart: {
